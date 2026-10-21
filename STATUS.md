@@ -30,7 +30,8 @@
 - 環境固有の制約：未確認
 
 ## 次の作業・障害
-1. 未記入
+1. 2026-10-21 Discord依頼「greet.py に --upper を足して PR まで」：ブランチ `feature/greet-upper` に実装・コミット済み（テスト2件OK）。push はサンドボックスで GitHub 資格情報（キーチェーン・~/.config/gh）を読めず失敗（`could not read Username`）。PR未作成・未push。本人が `git push -u origin feature/greet-upper` と `gh pr create` を実行するか、サンドボックス設定を見直す。
+2. Discord返信も失敗（`channel ... is not allowlisted`）。許可は本人が /discord:access で行う。
 
 ## 関連情報
 - PR・CI・Issue・仕様・知見のリンク：未記入
